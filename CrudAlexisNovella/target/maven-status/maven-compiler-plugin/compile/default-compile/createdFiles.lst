@@ -1,0 +1,8 @@
+mx\com\invested\crud\exception\ResourceNotFoundException.class
+mx\com\invested\crud\repository\EmpleadoRepository.class
+mx\com\invested\crud\controller\EmpleadoController.class
+mx\com\invested\crud\exception\ErrorDetails.class
+mx\com\invested\crud\model\Empleado.class
+mx\com\invested\crud\config\SpringRestClient.class
+mx\com\invested\crud\CrudAlexisNovella\CrudAlexisNovellaApplication.class
+mx\com\invested\crud\exception\GlobalExceptionHandler.class

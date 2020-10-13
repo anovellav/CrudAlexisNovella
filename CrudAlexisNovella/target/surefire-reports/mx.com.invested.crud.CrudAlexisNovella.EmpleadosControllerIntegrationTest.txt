@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: mx.com.invested.crud.CrudAlexisNovella.EmpleadosControllerIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 10.113 s <<< FAILURE! - in mx.com.invested.crud.CrudAlexisNovella.EmpleadosControllerIntegrationTest
+testDeleteEmpleado  Time elapsed: 1.579 s  <<< ERROR!
+org.springframework.web.client.UnknownContentTypeException: Could not extract response: no suitable HttpMessageConverter found for response type [class mx.com.invested.crud.model.Empleado] and content type [text/html;charset=utf-8]
+	at mx.com.invested.crud.CrudAlexisNovella.EmpleadosControllerIntegrationTest.testDeleteEmpleado(EmpleadosControllerIntegrationTest.java:87)
+
+testGetEmpleadoById  Time elapsed: 0.139 s  <<< ERROR!
+org.springframework.web.client.UnknownContentTypeException: Could not extract response: no suitable HttpMessageConverter found for response type [class mx.com.invested.crud.model.Empleado] and content type [text/html;charset=utf-8]
+	at mx.com.invested.crud.CrudAlexisNovella.EmpleadosControllerIntegrationTest.testGetEmpleadoById(EmpleadosControllerIntegrationTest.java:53)
+
+testUpdateEmpleado  Time elapsed: 0.113 s  <<< ERROR!
+org.springframework.web.client.UnknownContentTypeException: Could not extract response: no suitable HttpMessageConverter found for response type [class mx.com.invested.crud.model.Empleado] and content type [text/html;charset=utf-8]
+	at mx.com.invested.crud.CrudAlexisNovella.EmpleadosControllerIntegrationTest.testUpdateEmpleado(EmpleadosControllerIntegrationTest.java:74)
+
+testCreateEmpleado  Time elapsed: 0.138 s  <<< ERROR!
+org.springframework.web.client.UnknownContentTypeException: Could not extract response: no suitable HttpMessageConverter found for response type [class mx.com.invested.crud.model.Empleado] and content type [text/html;charset=utf-8]
+	at mx.com.invested.crud.CrudAlexisNovella.EmpleadosControllerIntegrationTest.testCreateEmpleado(EmpleadosControllerIntegrationTest.java:66)
+
